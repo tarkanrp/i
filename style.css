@@ -13,8 +13,8 @@
 }
 
 @font-face {
-	font-family: Seagram;
-	src: url('Seagram tfb.ttf')
+	font-family: Breathe Fire;
+	src: url('Breathe Fire.otf')
 }
 
 .posts-content h2 {
@@ -23,7 +23,7 @@
 
 
 h2 {
-  font-family: Seagram;
+  font-family: Breathe Fire;
   color:#b3a438;
 }
 
@@ -695,7 +695,11 @@ color: #fff;
   max-width: 10%;
   opacity: 0%;
 }
-
+ 
+.conteudobx p {
+  color: white;
+  font-size: 12px;
+}
 .cardrac .conteudobx{
   position: relative;
   padding: 18px;
