@@ -389,7 +389,7 @@ color: #fff;
   position: absolute;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 50%;
   object-fit: cover;
   z-index: -1;
 }
@@ -426,8 +426,17 @@ color: #fff;
 }
 
 .post{
-  width: calc(33% - 10px);
-  overflow: hidden;
+  width: calc(33% - 20px);
+  overflow: invisible;
+}
+
+.post-content{
+  background-color: #193656;
+  margin: 0 10px;
+  padding: 20px;
+  border-radius: 6px;
+  transform: translateY(-60px);
+  transition: .3s linear;
 }
 
 .post-img{
@@ -474,11 +483,12 @@ color: #fff;
   }
   
 }
-/*postS*/
+
+/*Historia*/
 
 .blogs-posts{
-  width: min(1200px, 100%);
-  padding: 20px;
+  width: min(1500px, 100%);
+  padding: 80px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -486,7 +496,7 @@ color: #fff;
 }
 
 .posts{
-  width: calc(50% - 20px);
+  width: calc(33% - 20px);
   overflow: hidden;
 }
 
@@ -540,16 +550,17 @@ color: #fff;
 /* Rodape */
 
 .footer{
-	background-color:  #0d1b2c;
-  width: 100%;
-	height: 275px;
+	background-color: #0d1b2c;
+    width: 100%;
+	height: 150px;
 	float: left;
 }
 
 .footer p{
   text-align: center;
   color: #f7f6f1;
-  padding-top: 230px;
+  padding-top: 100px;
+  margin: 0;
  
 }
 
