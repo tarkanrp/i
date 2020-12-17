@@ -863,9 +863,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   background: black;
   border-radius: 10px;
   overflow: hidden;
-  margin: 15px;
+  margin: 2px;
   justify-content: center;
-  background-size: 520px;
 }
 
 .cardrac::before{
@@ -913,7 +912,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
  
 .conteudobx p {
   color: white;
-  font-size: 12px;
+  font-size: 13px;
 }
 .cardrac .conteudobx{
   position: relative;
@@ -925,15 +924,13 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   flex-direction: column;
   z-index: 1;
   font-size: 12px;
-  margin-top: -33px;
+  margin-top: -40px;
 }
-
-
 
 }
 .cardrac .conteudobx p{
   color: rgb(255, 255, 255);
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .cardrac .conteudobx .preço{
