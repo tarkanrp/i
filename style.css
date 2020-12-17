@@ -506,8 +506,8 @@ figure.effect-zoe figcaption {
 	bottom: 0;
 	padding: 1em;
 	height: 3.75em;
-	background: #193656;
-	color: #d8e7ee;
+	background: rgb(0,0,0,0.5); /*muda a cor do fundo em historias*/
+	color: #00;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
@@ -633,7 +633,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	max-width: 480px;
 	max-height: 360px;
 	width: 48%;
-	background: #3085a3;
+	background: #3085a3; /* leve mudança na cor do fundo da historia */
 	text-align: center;
 	cursor: pointer;
 }
