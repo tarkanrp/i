@@ -912,7 +912,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
  
 .conteudobx p {
   color: white;
-  font-size: 13px;
+  font-size: 15px;
 }
 .cardrac .conteudobx{
   position: relative;
@@ -924,7 +924,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   flex-direction: column;
   z-index: 1;
   font-size: 12px;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 }
