@@ -21,7 +21,20 @@
   color:rgb(231, 231, 223);
 }
 
+.effect-zoe h2 {
+  color: rgb(247, 241, 241);
+}
 
+.fliph2 h2 {
+  color: #beaf37;
+  margin-top: 80px;
+}
+
+.fliph2 p {
+  color: rgb(122, 233, 248);
+  font-size: 19px;
+}
+ 
 h2 {
   font-family: Breathe Fire;
   color:#b3a438;
@@ -1076,6 +1089,63 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   }
 }
 
+/*Profissoes*/
+.flip-card-back ul li{
+  color: white;
+  float: left;
+  font-size: 18px;
+}
+
+.flip-card {
+  float: left;
+  margin: 50px 15px;
+  background-color: transparent;
+  width: 400px;
+  height: 500px;
+  border: 0px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  position: relative;
+  width: calc(23% - 10px);
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-image: url("images/Fundu.png");
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-image: url("images/Fundu.png");
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
 /* Donates */
 
 .infos{
@@ -1180,6 +1250,18 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   color: #fef58b;
   margin-top: 50px;
 }
+
+.timeline{text-align: center;margin: 0 auto;max-width: 1300px; padding-top: 10px;}
+.c_time{border-radius: 100%;background-image: url("images/fundo1.png");display: inline-block;vertical-align: middle;}
+.c_tsize{width: 150px;height: 150px;margin-left: -5px;border: 0px solid #61C1BE;transition:all 0.5s;-webkit-transition:all 0.5s;}
+.c_tsize p {color:  #cabe3d;  ; font-family:Breathe Fire; font-size:26px; padding-top: 15px;}
+.c_tsize:hover{transition:all 0.5s;-webkit-transition:all 0.5s; width: 350px;height: 350px;border: 15px solid  #a19830;}
+.c_tsize:hover .content {display: none;}
+.c_tsize:hover .hidden-content {display: block;}
+.c_tsize:hover .title {color: rgb(248, 248, 242);  padding-top: 2px ;}
+.hidden-content {display: none;font-size: 0.9em;line-height: 1.2;width: 180px;margin: 0 auto;color: #fff;}
+.hidden-content img {width: 160px;margin-bottom: 0px;}
+
 
 /* classes */
 
