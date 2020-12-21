@@ -1093,7 +1093,9 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .flip-card-back ul li{
   color: white;
   float: left;
-  font-size: 18px;
+  font-size: 16px;
+  margin: 6px;
+  margin-left: 50px;
 }
 
 .flip-card {
@@ -1168,10 +1170,10 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .infos h5{
   font-size: 2rem;
-  margin-top: 0px;
+  margin-top: 100px;
   color: #cabe3d;
+  
 }
-
 
 
 .infos p{
@@ -1251,7 +1253,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
   margin-top: 50px;
 }
 
-.timeline{text-align: center;margin: 0 auto;max-width: 1300px; padding-top: 10px;}
+.timeline{text-align: center;margin: 0 auto;max-width: 1300px; padding-top: 10px; padding-bottom: 100px;}
 .c_time{border-radius: 100%;background-image: url("images/fundo1.png");display: inline-block;vertical-align: middle;}
 .c_tsize{width: 150px;height: 150px;margin-left: -5px;border: 0px solid #61C1BE;transition:all 0.5s;-webkit-transition:all 0.5s;}
 .c_tsize p {color:  #cabe3d;  ; font-family:Breathe Fire; font-size:26px; padding-top: 15px;}
