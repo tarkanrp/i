@@ -389,6 +389,7 @@ color: #fff;
   display: flex;
   align-items: center;
   overflow: hidden;
+  margin-bottom: -50px;
 }
 
 
@@ -782,6 +783,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     width: 100%;
 	height: 150px;
 	float: left;
+	margin-top: 30px;
 }
 
 .footer p{
@@ -857,26 +859,24 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .raçasfund2{
   background-color:#09131f;
-/* height: 200px; */
 }
  
 .bodycard02{
   display: flex;
   align-items: center;
   width: 100%;
-  /*min-height: 0vh;*/
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .cardrac{
   position: relative;
-  width: 320px;
-  height: 420px;
+  width: 350px;
+  height: 450px;
   background: black;
   border-radius: 10px;
   overflow: hidden;
-  margin: 2px;
+  margin: 20px; /* distancia das imagem */
   justify-content: center;
 }
 
@@ -1310,4 +1310,114 @@ iframe{
   font-size: 1.3rem;
   margin-top: 10px;
   margin: 10px;
+}
+
+.cardrac2{
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 60px 20px 20px; /* distancia das imagem */
+  justify-content: center;
+}
+
+.cardrac2::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("images/fundo1.png");
+  transition: 0.5s;
+}
+
+
+.cardrac2::after{
+  content: '';
+  position: absolute;
+  bottom: 250px;
+  left: 50px;
+  font-weight: 600;
+  font-size: 3em;
+  padding-right: 0px;
+  color:white;
+}
+
+
+.cardrac2 .imgbx{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 0px;
+  padding-top: 0px;
+  z-index: 1;
+}
+
+.cardrac2 .imgbx img{
+  max-width: 100%;
+  transition: 0.5s;
+}
+
+.cardrac2:hover .imgbx img{
+  max-width: 10%;
+  opacity: 0%;
+}
+ 
+.cardrac2 .conteudobx{
+  position: relative;
+  padding: 18px;
+  padding-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  font-size: 12px;
+  margin-top: -30px;
+}
+
+}
+.cardrac2 .conteudobx p{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.cardrac2 .conteudobx .preço{
+  font-size: 15px;
+  color:  #cfc232; /* cor dos atributos*/
+  font-weight: 500;
+  letter-spacing: 1px; 
+}
+
+.cardrac2 .conteudobx .comprar{
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 5px;
+  color: #ffff;
+  text-decoration: none;
+  background:  #b8ad37; /* botão do leia mais*/
+  border-radius: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.cardrac2:hover .conteudobx .comprar{
+  top:0;
+  opacity: 1;
+}
+
+.cardrac2 ul li{
+  color: white;
+}
+
+
+.cardrac2 h2{
+  
+  color: #cabe3d; /*nome das raças*/
 }
