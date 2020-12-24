@@ -871,12 +871,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .cardrac{
   position: relative;
-  width: 350px;
-  height: 450px;
+  width: 300px;
+  height: 400px;
   background: black;
   border-radius: 10px;
   overflow: hidden;
-  margin: 20px; /* distancia das imagem */
+  margin: 10px; /* distancia das imagem */
   justify-content: center;
 }
 
