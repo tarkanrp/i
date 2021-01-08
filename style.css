@@ -1137,13 +1137,13 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-image: url("images/Fundu.png");
+  background-image: url("images/Fundo1.png");
   color: black;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-image: url("images/Fundu.png");
+  background-image: url("images/Fundo1.png");
   color: white;
   transform: rotateY(180deg);
 }
